@@ -34,6 +34,11 @@ const addData = async ({ id, Firstname, Surname, userid }) =>
     [id, Firstname, Surname, userid]
   );
 
+const getUsersRecords = async () => {
+  const res = await query('CALL users_records')
+  return res[0]
+}
+
 const deleteDataById = async (id) =>
   execute("DELETE FROM data WHERE id = ?", [id]);
 
@@ -44,6 +49,7 @@ const updateData = async ({ id, Firstname, Surname, userid }) =>
   );
 
 export {
+  getUsersRecords,
   updateData,
   deleteDataById,
   addData,
