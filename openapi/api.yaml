@@ -20,7 +20,7 @@ security:
   - bearerAuth: []
 
 servers:
-  - url: https://daniilu2404752.westeurope.cloudapp.azure.com
+  - url: 
   
 tags:
   - name: Sample dataset
