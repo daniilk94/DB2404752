@@ -48,6 +48,5 @@ Authorization: Bearer {{login.response.body.access_token}}
     "id": 3
 }
 
-
 ###
 GET http://localhost:3000/doc
