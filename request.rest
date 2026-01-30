@@ -26,9 +26,9 @@ Content-Type: application/json
 Authorization: Bearer {{login.response.body.access_token}}
 
 {
-    "id": "5",
-    "Firstname": "Donald",
-    "Surname": "Duck",
+    "id": "3",
+    "Firstname": "Peter",
+    "Surname": "Parker",
     "userid": "jk"
 }
 
@@ -45,7 +45,7 @@ Authorization: Bearer {{login.response.body.access_token}}
     "Firstname": "Peter",
     "Surname": "Parker",
     "userid": "pl",
-    "id": 5
+    "id": 3
 }
 
 
